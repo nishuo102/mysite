@@ -1,0 +1,24 @@
+.menuBtn {
+    width: 114px;
+    margin-top: 20px;
+
+
+}
+.menuBtn:hover {
+    background: #e2e2e2;
+
+
+}
+
+
+
+.logoImg {
+    position: relative;
+    width: 162px;
+    height: 58px;
+    display: inline-block;
+}
+
+.ziti {
+    color: #000;
+}

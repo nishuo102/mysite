@@ -2,129 +2,63 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="utf-8" />
+    <title>SW</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <meta charset="utf-8" />
     <title>SW手表</title>
 
+
 </head>
-<style type="text/css">
-    .daohanglan {
-        background: #ffffff;
-        width: 1600px;
-        height: 72px;
-        top: 0px;
-        left: 0px;
-    }
 
-    #xingzuo {
-        color: #ff0000;
-        font-size: 32px;
-        font-family: cursive;
-        position: relative;
-        top: 90px;
-        width: 1600px;
-
-        text-align: center;
-        display: inline-block;
-
-
-    }
-
-    #xingzuojieshi {
-        color: #757575;
-        font-size: 14px;
-        font-family: cursive;
-        position: relative;
-        top: 104px;
-        width: 1600px;
-
-        text-align: center;
-        display: inline-block;
-
-
-    }
-
-    #tansuo {
-
-        position: relative;
-        top: 120px;
-        width: 1600px;
-
-        text-align: center;
-        display: inline-block;
-
-
-    }
-
-    /*
- #tansuo {
-
-   width:144px;
-border:1px solid #212121;
-     color: #212121;
-     font-size: 14px;
-  font-family: cursive;
-        position: relative;
-        top: 90px;
-
-}
-*/
-        #shipin {
-
-
-        position: relative;
-       top: 144px;
-        width: 1600px;
-
-        text-align: center;
-        display: inline-block;
-
-
-    }
-
-
-    body {
-        margin: 0;
-    }
-</style>
 
 <body>
-    <div class="daohanglan">
-        <img src="other/SW.png" style="width: 160px;position: relative;left: 136px;top: 16px" />
+    <div id='daohang' class="row">
 
-        <div style="color: #ff0000; font-size: 18px;font-family:cursive; position: absolute;left: 784px;top: 27px">首页</div>
-        <div style="color: #000000; font-size: 18px;font-family:cursive; position: absolute;left: 984px;top: 27px"> 星座系列</div>
-        <div style="color: #000000; font-size: 18px;font-family:cursive; position: absolute;left: 1192px;top: 27px"> 海马系列</div>
-        <div style="color: #000000; font-size: 18px;font-family:cursive; position: absolute;left: 1400px;top: 27px"> 关于我们</div>
+        <div class="col-sm-1">
+        </div>
+        <div id="logo" class="col-sm-2" style="height: 72px;position: relative;top: 24px;left: 64px">
+            <div>
+                <img src="other/SW.png" class="logoImg">
+            </div>
+        </div>
+        <div id="caidan" class="col-sm-8" style="height: 72px;text-align: right">
+            <div class="btn btn-primary menuBtn" style="color: #000000;background: #fff;border:0">
+                <div class="zitisheji">首页</div>
+            </div>
+            <div class="btn btn-primary menuBtn" style="color: #000000;background: #fff;border:0"><div class="zitisheji">星座系列</div> </div>
+            <div class="btn btn-primary menuBtn" style="color: #000000;background: #fff;border:0"><div class="zitisheji">海马系列</div> </div>
+            <div class="btn btn-primary menuBtn" style="color: #000000;background: #fff;border:0"><div class="zitisheji">关于我们</div> </div>
+
+        </div>
+        <div class="col-sm-1">
+        </div>
+
     </div>
 
+    <div id="zhutitu" class="row">
 
-    <img src="other/%E4%B8%BB%E9%A2%98%E5%9B%BE1.png" style="width: 1600px " />
-
-
-    <div id="xingzuo">
-        SW星座系列至尊天文台小秒针腕表
-    </div>
-
-
-    <div id="xingzuojieshi">
-        这是首款专门为女士打造的至尊天文台表，不仅继承了SW星座系列的所有经典元素，小秒针的设计也让这款腕表更加灵动精美。
-    </div>
-
-    <div id="tansuo">
-        <img src="other/%E6%8E%A2%E7%B4%A2%E6%AD%A4%E7%B3%BB%E5%88%97.png" style="width: 141px; margin: 0px " />
-    </div>
-
-    <!--
-  <div id="tansuo" style="text-align: center;display:-webkit-box;
--webkit-box-pack:center;
--webkit-box-align:center; display: inline-block">
-    <p>探索此系列</p></div>
+        <!--
+        <div class="col-sm-1">
+        </div>
 -->
-<div id="shipin">
-        <img src="other/%E8%A7%86%E9%A2%91.png" style="width: 1344px" />
+        <div class="col-sm-12" style="background: #AAA;height: 600px">
+            <img style="height: 600px;overflow-y:hidden" src="other/%E4%B8%BB%E9%A2%98%E5%9B%BE1.png">
+        </div>
+        <!--
+        <div class="col-sm-1">
+        </div>
+-->
+
+
+
     </div>
 
 </body>
 
 </html>
-

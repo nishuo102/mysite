@@ -1,0 +1,86 @@
+a {
+    color: aquamarine;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a :link {
+    text-decoration: none;
+}
+
+a :visited {
+    text-decoration: none;
+}
+
+a :active {
+    text-decoration: none;
+}
+
+
+
+
+.menu {
+    width: 100px;
+    height: 50px;
+    background: #ff0000;
+    text-align: center;
+    /*子层是百度*/
+/*    overflow: hidden;*/
+    /*溢出隐藏*/
+}
+
+/*
+.menu:hover {
+    background: #0027ff;
+    color: #00ff58;
+}
+
+.menu:active {
+    background: #9f0000;
+    color: #ff00d8;
+}
+*/
+
+.menuText {
+    margin-top: 50%;
+    transform: translate(0,10px);
+/*
+    position: relative;
+    top: 15px;
+*/
+    height:100px;
+/*    display: inline-block;*/
+    /*水平居中*/
+}
+
+.menuText:hover {
+    animation: moveup100 1s 1;
+}
+
+
+@keyframes moveup100 {
+    from {
+        top: 0;
+    }
+    to {
+        top: -100px;
+    }
+}
+
+.menuUP {
+    color: aliceblue;
+    height: 100px;
+    position: relative;
+    top: 15；
+}
+
+.menuDown {
+    color: black;
+    height: 100px;
+    position: relative;
+    top: 15；
+}
+
+.menuText {
+
+}
