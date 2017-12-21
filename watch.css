@@ -1,0 +1,57 @@
+.sheji {
+    width: 114px;
+    text-align: center;
+    color: #000;
+}
+.sheji:hover {
+    width: 114px;
+    text-align: center;
+    color: #E91E63;
+}
+
+
+
+
+
+
+
+
+.tuPian {
+    position: absolute;
+    margin-top: 0;
+}
+
+.fangKuai {
+    position: relative;
+    width: 100px;
+    color: aqua;
+    background: #00b2b2；
+    margin-top: 1500px;
+}
+
+
+
+.xingzuobiaoti {
+
+    color: #C40D2E;
+    font-size: 32px;
+    text-align: center
+}
+
+.xingzuofubiaoti {
+    font-size: 14px;
+    color: #757575;
+    text-align: center;
+}
+
+.tansuo {
+
+    color: #212121;
+text-align: center;
+}
+
+
+
+.shipin1 {
+    text-align: center;
+}
