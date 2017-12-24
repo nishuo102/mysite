@@ -63,23 +63,40 @@ text-align: center;
 .daoHangZi {
     font-size: 16px;
     margin-top: 18px;
+    color: #000;
+
+    display: inline-block;
+
+}
+.daoHangZi:hover {
+    font-size: 18px;
+    margin-top: 18px;
+    color: #E91E63;
+
+    display: inline-block;
+
+}
+.daoHangZiJhuo {
+    font-size: 18px;
+    color: #E91E63;
+     margin-top: 18px;
 }
 
+
 #daoHangLan {
-    background: #cb4a4a;
+
     height: 72px
 }
 
 #logo {
-    background: #4c72f2;
+    background: #fff;
     height: 72px;
 }
 
 #menu {
-    background: #451818;
+
     height: 72px;
 }
 
-#1 {
-   background: red;
-}
+
+
